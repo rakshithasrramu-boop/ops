@@ -1,0 +1,24 @@
+Experiment No:4
+
+→sudo apt update
+→sudo apt install apt transport-https co-certificates curl software-properties-Common-y
+→sudo apt install docker.io -y
+→sudo systemctl start decker
+→sudo systemctl enable docker.
+→docker --version
+→sudo docker run hello-world
+→mkdir my-python-app
+→cd my-python-app
+→touch app.py
+nano app.py
+cat app.py
+→ touch Dockergale
+nano dockerfile
+→touch requirements.txt
+cat requirements.txt
+sudo systemctl start docker.
+→docker build -t my-app-image
+→sudo docker images
+→docker run -d-p 5000: 5000 --name myapp-Containerd my-app-image
+→ sudo docker ps 
+→https://localhost: 5000
